@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-left: 100px;
+}
+h2{
+    margin-top: 35px;
+    font-size: 25px;
+    margin-top: 12px;
+}
+button{
+    border-radius: 50px;
+    margin-top: 13px; 
+    height: 60px;
+    width: 190px;
+}
+.topo{
+display: flex;
+height: 12vh;
+width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 38, 145);
+    height: 12vh;
+    width: 100%;
+}
+#nav-list {
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+  }
+.menu-btn {
+    background-color:  rgb(46, 38, 145);
+    color: white;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-container {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%; 
+    background-color:  rgb(46, 38, 145);
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.menu-container a {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu-container.open {
+    left: 0;
+   
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color:  rgb(46, 38, 145);
+    color: white;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudo{
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    height: 80vh;
+    margin: auto;
+}
+.centro{
+    display: flex;
+    height: 60vh;
+    width: 60vh;
+    background-color: #F2F2F2;
+    text-align: justify;
+}
+.centro_1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    background-color: #F2F2F2 ;
+    text-align: justify;  
+}
+H1{
+    margin-left: 10px;
+    display: flex;
+    font-size: 45px;
+    text-align: start;
+    color: rgb(46, 38, 145);
+}
+P{
+    margin-top: 450px;
+    margin-left: -400px;
+    display: flex;
+    font-size: 22px;
+    color: rgb(46, 38, 145);
+}
+.button2 {
+    flex-direction: column;
+    align-items: flex-end; 
+    height: 90vh;
+  }
+  
+  .button2 button {
+    background-color: rgb(46, 38, 145); 
+    height: 12vh;
+    width: 30vh;
+  }
+ 
